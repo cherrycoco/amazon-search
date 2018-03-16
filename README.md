@@ -4,7 +4,7 @@
 
 This microservice simulates search activity of Amazon's website. 
 
-## App Plan
+## App Plan - Microspore (Four Amazon Microservices)
 
 <a href="https://docs.google.com/document/d/1aMCOd23jQX6GnpqQF4qTpHij4GL_973k5oOySg74kGM/edit?usp=sharing">Click here to view our App Plan</a>
 
@@ -21,10 +21,10 @@ In addition, I architected a background worker to communicate with the Product M
 I then deploy my service on Amazon Web Services EC2 Linux Instances using Docker. I used a cluster of auto-scaling enabled t2.micro instances to hold my application's web server. I used AWS Elasticache to manage my Redis and AWS ElasticSearch to manage my database. I configured a VPC for my AWS resources, which allowed for a more secured network of communication between my instances.
 
 ## Technologies
-Powered by: AWS (EC2, ElastiCache, SQS, ElasticSearch), Docker, Node.js, Koa.js, ElasticSearch, Redis
-Test: Chai, ChaiHTTP, Istanbul
-Load-test: Artillery
-Performance Monitor: New Relic
+- Powered by: AWS (EC2, ElastiCache, SQS, ElasticSearch), Docker, Node.js, Koa.js, ElasticSearch, Redis
+- Test: Chai, ChaiHTTP, Istanbul
+- Load-test: Artillery
+- Performance Monitor: New Relic
 
 ## Requirements
 

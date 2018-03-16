@@ -6,7 +6,10 @@ This microservice simulates search activity of Amazon's website.
 
 ## App Plan
 
-<a href="https://docs.google.com/document/d/1aMCOd23jQX6GnpqQF4qTpHij4GL_973k5oOySg74kGM/edit?usp=sharing">App Plan</a>
+<a href="https://docs.google.com/document/d/1aMCOd23jQX6GnpqQF4qTpHij4GL_973k5oOySg74kGM/edit?usp=sharing">Click here to view our App Plan</a>
+
+<img src="https://i.imgur.com/YD1DXA8.png" 
+alt="Amazon Search Microservice System Diagram" width="70%" border="10" /></a>
 
 ## What Did I Do?
 
@@ -35,35 +38,3 @@ Performance Monitor: New Relic
 From within the root directory:
 
 `npm install`
-
-## Roadmap
-
-View the project roadmap [here](https://trello.com/b/YEVVUNMx/roadmap)
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
-
-# Table of Contents
-
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-    1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
-
-## Usage
-
-> Some usage instructions
-
-## Requirements
-
-- Node 6.9.x
-- Redis 3.2.x
-- Postgresql 9.6.x
-- etc
-
-## Other Information
-
-(TODO: fill this out with details about your project. Suggested ideas: architecture diagram, schema, and any other details from your app plan that sound interesting.)
-
